@@ -1,0 +1,9 @@
+{
+    "keyboard_name": "Skytoucher",
+    "manufacturer": "jasonhazel",
+    "usb": {
+        "vid": "0x4A48",
+        "pid": "0x5354",
+        "device_version": "1.0.0"
+    }
+}

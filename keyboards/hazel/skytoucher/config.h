@@ -1,0 +1,42 @@
+#pragma once
+
+
+
+
+#define MATRIX_COLS   8
+#define MATRIX_ROWS   6
+
+#define SPI_SCK_PIN     GP2
+#define SPI_MOSI_PIN    GP3
+#define SPI_MISO_PIN    GP4
+
+// using sadek's shiftreg code
+#define SHIFTREG_MATRIX_COL_CS  GP29
+#define SHIFTREG_DIVISOR        8
+#define SHIFTREG_ROWS           3
+#define SHIFTREG_COLS           8
+#define MATRIX_ROW_PINS_SR { GP26, GP27, GP28 }
+
+
+#define DIODE_DIRECTION COL2ROW
+// #define MATRIX_ROW_PINS { GP3, GP4, GP2, GP1 }
+// #define MATRIX_COL_PINS { GP6, GP29, GP28, GP27, GP26 }
+
+#define SOFT_SERIAL_PIN GP0
+#define USE_SERIAL
+#define SELECT_SOFT_SERIAL_SPEED 0
+
+#define MASTER_LEFT
+#define SPLIT_TRANSPORT_MIRROR
+#define SPLIT_POINTING_ENABLE
+#define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_MODS_ENABLE
+
+#define BOOTMAGIC_LITE_ROW    3
+#define BOOTMAGIC_LITE_COLUMN 0
+#define BOOTMAGIC_LITE_ROW_RIGHT    3
+#define BOOTMAGIC_LITE_COLUMN_RIGHT 4
+
+#define POINTING_DEVICE_CS_PIN GP1
+#define POINTING_DEVICE_ROTATION_90
+#define CIRQUE_PINNACLE_DIAMETER_MM 23
