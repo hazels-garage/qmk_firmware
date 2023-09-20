@@ -2,7 +2,8 @@
     "manufacturer": "Jason Hazel",
     "keyboard_name": "The Stance",
     "maintainer": "jasonhazel",
-    "bootloader": "caterina",
+    "processor": "RP2040",
+    "bootloader": "rp2040", 
     "diode_direction": "COL2ROW",
     "features": {
         "bootmagic": true,
@@ -10,17 +11,23 @@
         "console": false,
         "extrakey": true,
         "mousekey": true,
-        "nkro": false
+        "nkro": false,
+        "rgblight": true
+    },
+    "rgblight": {
+        "led_count": 10,
+        "animations": {
+            "rainbow_mood": true
+        }
     },
     "matrix_size": {
         "cols": 6,
         "rows": 6
     },
     "matrix_pins": {
-        "cols": ["D4", "C6", "D7", "F6", "F7", "B1"],
-        "rows": ["E6", "B4", "B5", "B3", "B2", "B6"]
+        "cols": ["GP4", "GP5", "GP6", "GP27", "GP26", "GP22"],
+        "rows": ["GP7", "GP8", "GP9", "GP20", "GP23", "GP21"]
     },
-    "processor": "atmega32u4",
     "url": "",
     "usb": {
         "vid": "0x4A48",
