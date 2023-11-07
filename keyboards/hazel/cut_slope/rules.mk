@@ -8,3 +8,5 @@ SRC += fonts/roboto12.qff.c fonts/roboto18.qff.c fonts/roboto14.qff.c
 SRC += display.c
 
 WPM_ENABLE 					= yes
+LTO_ENABLE=yes
+OPT_DEFS = -O2
